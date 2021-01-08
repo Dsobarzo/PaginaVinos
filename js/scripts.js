@@ -14,4 +14,5 @@ toggleIcon.addEventListener("click", function(){
 
 botella.addEventListener("click", function(){
     alert("Funciona");
+    console.log("Hola Mundo");
 })
