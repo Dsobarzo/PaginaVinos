@@ -62,9 +62,10 @@ header {
     font-size: 1.3em;
 }
 
-    .main .navbar .toggle-menu i {
+    .navbar .fa-ellipsis-h {
         font-size: 2.7em;
         color: #ffffff;
+        cursor: pointer;
     }
 
 
@@ -82,10 +83,10 @@ header {
     font-size: 1.3em;
     color: #ffffff;
     cursor: pointer;
-    display: none;*/
-}
+    display: none;
+}*/
 
-@media (max-width:570px){
+/*@media (max-width:570px){
     .navbar .fa-ellipsis-h {
         display: block;
         margin: -59px 10px;
@@ -114,6 +115,9 @@ header {
     }
 
 
+}*/
+.menu .menu-on{
+    transform: translateX(0%);
 }
 
 
