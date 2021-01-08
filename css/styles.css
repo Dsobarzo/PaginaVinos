@@ -36,6 +36,7 @@ header {
 
 .navbar .brand .fa-wine-bottle{
     font-size: 1.6em;
+    cursor: pointer;
 }
 
 .navbar .brand h3{
@@ -61,11 +62,33 @@ header {
     font-size: 1.3em;
 }
 
-.navbar .toggle-menu{
+    .navbar .toggle-menu {
+        display: flex;
+        justify-content: flex-end;
+        margin-top: 30px;
+        font-size: 1.8px;
+    }
+
+
+    .navbar .toggle-menu i{
+        font-size: 1.8em;
+        cursor: pointer;
+        color: #ffffff;
+        display: none;
+    }
+
+.navbar .fa-ellipsis-h{
     display: flex;
     justify-content: flex-end;
-    margin-top: 35px;
-    font-size: 1.8px;
+    margin-top: 1px;
+    font-size: 1.3em;
+    color: #ffffff;
+    cursor: pointer;
 }
+
+
+
+
+
 
 
