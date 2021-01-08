@@ -61,7 +61,7 @@ header {
     text-decoration: none;
     font-size: 1.3em;
 }
-
+/*
     .navbar .toggle-menu {
         display: flex;
         justify-content: flex-end;
@@ -76,7 +76,7 @@ header {
         color: #ffffff;
         display: none;
     }
-
+*/
 .navbar .fa-ellipsis-h{
     display: flex;
     justify-content: flex-end;
